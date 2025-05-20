@@ -1,6 +1,7 @@
 import boto3
 import json
 import os
+import uuid
 from datetime import datetime, timedelta
 from boto3.dynamodb.conditions import Key, Attr
 
